@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(./car.jpg);
+    background-size: cover;
+    
+}
+h1{
+    background-color: rgb(41, 40, 40);
+    text-align: right;
+    font-size: 40px;
+    height: 60px;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+}
+h1:hover{
+    font-size: 45px;
+}
+
+.nev{
+    background-color: rgb(41, 40, 40);
+    
+}
+
+.nev ul{
+    height: 35px;
+    padding-top: 10PX;
+}
+
+.nev ul li{
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.nev ul li a{
+    text-decoration: none;
+    color: rgb(255, 252, 252);
+    font-size: 20px;
+}
+
+.nev ul li:hover{
+    background-color: #777575;
+    padding: 10px;
+}
+
+/*b0x*/
+.car{
+    width: 300px;
+    height: 350px;
+    border: 2px solid blue;
+    margin-top: 100px;
+    background-color: blue;
+    float: left;
+    transition: all 0.3s ease-in-out;
+}
+.car:hover{
+    transform: scale(1.1);
+}
+
+
+
+/*box2*/
+.re{
+    width: 300px;
+    height: 350px;
+    border: 2px solid rgb(33, 33, 185);
+    background-color: rgb(33, 33, 185);
+    display: inline;
+    float: inline-start;
+    margin-top: 100px;
+    transform: all 0.3s ease-in-out;
+}
+.re:hover{
+    transform: scale(1.1);
+}
+
+/*box3*/
+.rea{
+    width: 300px;
+    height: 350px;
+    border: 2px solid blue;
+    background-color: blue;
+    display: inline;
+    float: inline-start;
+    margin-top: 100px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.rea:hover{
+    transform: scale(1.1);
+}
+
+.box3{
+    width: 300px;
+    height: 350px;
+    border: 2px solid rgb(33, 33, 185);
+    background-color: rgb(33, 33, 185);
+    display: inline;
+    float: inline-start;
+    margin-top: 100px;
+
+}
+
+.box{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+/*img box1*/
+.car img{
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.car h2{
+    margin-left: 60px;
+    color: white;
+    font-size: 30px;
+}
+
+/*box1*/
+
+
+/*box2*/
+.re img{
+    margin-left: 100px;
+    margin-top: 65px;
+}
+
+.re h2{
+    margin-left: 70px;
+    color: white;
+    font-size: 30px;
+}
+/*box2 end*/
+
+/*box3 start*/
+.rea img{
+    margin-left: 100px;
+    margin-top: 65px;
+}
+.rea h2{
+    margin-left: 70px;
+    color: white;
+    font-size: 30px;
+}
+
+.box3 img{
+    margin-left: 100px;
+    margin-top: 65px;
+}
+
+.box3 h2{
+    margin-left: 110px;
+    color: white;
+    font-size: 30px;
+}
